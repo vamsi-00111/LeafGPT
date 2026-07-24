@@ -1,0 +1,97 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env/
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+*.egg
+*.whl
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyCharm / VS Code / editor metadata
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
+
+# Dataset / model artifacts
+*.h5
+*.keras
+best_model.pt
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.tflite
+*.pb
+*.npy
+*.npz
+*.csv
+*.parquet
+*.sqlite3
+*.db
+plant-disease-1/
+plant-disease-1/**
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# Backup files
+*.bak
+*.tmp
+*.swp
+
+# Notebook outputs
+output/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Python bytecode
+*.pyc
